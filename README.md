@@ -1,10 +1,10 @@
-# react-download-multiple-documents
+# Download Multiple Documents 
 
 ## Summary
 
-Short summary on functionality and used technologies.
+This sample empowers users to effortlessly download multiple documents as a single compressed ZIP file.
 
-[picture of the solution in action, if possible]
+![demo](./assets/MultipleDownloadsWebPartDemo.gif)
 
 ## Used SharePoint Framework Version
 
@@ -19,20 +19,19 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+* [JSZIP](https://github.com/Stuk/jszip)
 
 ## Solution
 
 | Solution    | Author(s)                                               |
 | ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+| react-download-multiple-documents | [Ramin Ahmadi](https://codingwithramin.com) |
 
 ## Version history
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
+| 1.0     | September 09, 2023 | Initial release |
 
 ## Disclaimer
 
@@ -52,17 +51,11 @@ Short summary on functionality and used technologies.
 
 ## Features
 
-Description of the extension that expands upon high-level summary above.
+* Seamless Integration: This SPFx web part seamlessly integrates with your SharePoint environment, allowing you to select multiple documents from document libraries or lists.
 
-This extension illustrates the following concepts:
+* Batch Download: Select multiple documents, and with a single click, generate and download a ZIP file containing all the selected documents.
 
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
+* Efficient Compression: The web part leverages the jszip library, a popular JavaScript library for working with ZIP files. It efficiently compresses your selected documents while preserving their folder structure.
 
 ## References
 

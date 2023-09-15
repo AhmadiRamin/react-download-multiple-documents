@@ -1,4 +1,4 @@
-# Download Multiple Documents 
+# Download Multiple Documents
 
 ## Summary
 
@@ -23,19 +23,19 @@ This sample empowers users to effortlessly download multiple documents as a sing
 
 ## Prerequisites
 
-* [JSZIP](https://github.com/Stuk/jszip)
-* [spfx-property-controls](https://pnp.github.io/sp-dev-fx-property-controls/)
+- [JSZIP](https://github.com/Stuk/jszip)
+- [spfx-property-controls](https://pnp.github.io/sp-dev-fx-property-controls/)
 
 ## Solution
 
-| Solution    | Author(s)                                               |
-| ----------- | ------------------------------------------------------- |
+| Solution                          | Author(s)                                   |
+| --------------------------------- | ------------------------------------------- |
 | react-download-multiple-documents | [Ramin Ahmadi](https://codingwithramin.com) |
 
 ## Version history
 
-| Version | Date             | Comments        |
-| ------- | ---------------- | --------------- |
+| Version | Date               | Comments        |
+| ------- | ------------------ | --------------- |
 | 1.0     | September 09, 2023 | Initial release |
 
 ## Disclaimer
@@ -52,15 +52,13 @@ This sample empowers users to effortlessly download multiple documents as a sing
   - **npm install**
   - **gulp serve**
 
-> Include any additional steps as needed.
-
 ## Features
 
-* Seamless Integration: This SPFx web part seamlessly integrates with your SharePoint environment, allowing you to select multiple documents from document libraries or lists.
+- Seamless Integration: This SPFx web part seamlessly integrates with your SharePoint environment, allowing you to select multiple documents from document libraries or lists.
 
-* Batch Download: Select multiple documents, and with a single click, generate and download a ZIP file containing all the selected documents.
+- Batch Download: Select multiple documents, and with a single click, generate and download a ZIP file containing all the selected documents.
 
-* Efficient Compression: The web part leverages the jszip library, a popular JavaScript library for working with ZIP files. It efficiently compresses your selected documents while preserving their folder structure.
+- Efficient Compression: The web part leverages the jszip library, a popular JavaScript library for working with ZIP files. It efficiently compresses your selected documents while preserving their folder structure.
 
 ## References
 

@@ -68,11 +68,11 @@ const DownloadMultipleDocuments: React.FunctionComponent<IDownloadMultipleDocume
   }
 
   const convertToKb = (bytes:any) => {
-    let marker = 1024; // Change to 1000 if required
-    let decimal = 3; // Change as required
-    let kiloBytes = marker; // One Kilobyte is 1024 bytes
-    let megaBytes = marker * marker; // One MB is 1024 KB
-    let gigaBytes = marker * marker * marker; // One GB is 1024 MB
+    const marker = 1024; // Change to 1000 if required
+    const decimal = 3; // Change as required
+    const kiloBytes = marker; // One Kilobyte is 1024 bytes
+    const megaBytes = marker * marker; // One MB is 1024 KB
+    const gigaBytes = marker * marker * marker; // One GB is 1024 MB
 
     // return bytes if less than a KB
     if(bytes < kiloBytes) return bytes + " Bytes";

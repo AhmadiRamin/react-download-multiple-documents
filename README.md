@@ -4,6 +4,10 @@
 
 This sample empowers users to effortlessly download multiple documents as a single compressed ZIP file.
 
+![screenshot](./assets/screenshot1.png)
+
+## Demo
+
 ![demo](./assets/MultipleDownloadsWebPartDemo.gif)
 
 ## Used SharePoint Framework Version
@@ -20,6 +24,7 @@ This sample empowers users to effortlessly download multiple documents as a sing
 ## Prerequisites
 
 * [JSZIP](https://github.com/Stuk/jszip)
+* [spfx-property-controls](https://pnp.github.io/sp-dev-fx-property-controls/)
 
 ## Solution
 
